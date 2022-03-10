@@ -14,7 +14,7 @@ namespace TestSqlLogFile
                 connection.Open();
                 var insertQry = "INSERT INTO [dbo].[Department] ([DepartmentID],[Name],[Budget],[StartDate],[Administrator])";
                 insertQry += " VALUES ";
-                insertQry += "(16,'Physics',1000,'2022-05-12',1)";
+                insertQry += "(19,'Physics',1000,'2022-05-12',1)";
                 SqlCommand command = new SqlCommand(insertQry, connection);
                 var rows = command.ExecuteNonQuery();
                 connection.Close();
