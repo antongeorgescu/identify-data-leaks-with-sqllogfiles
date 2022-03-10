@@ -1,0 +1,4 @@
+﻿CREATE MESSAGE TYPE [SBMessage]
+    AUTHORIZATION [dbo]
+    VALIDATION = NONE;
+

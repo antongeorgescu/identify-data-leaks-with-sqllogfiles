@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Education] (
+    [STUDENTNUMBER]   INT           NULL,
+    [INSTITUTIONNAME] VARCHAR (100) NULL
+);
+

@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [alvianda]
+    WITH PASSWORD = N'{{KxiaR%maibfthmnn6v0wtbmsFT7_&#$!~<rlx{TnqB<lyx', SID = 0xD9269A5BC7F4D64785DA180A119E24D2, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+
